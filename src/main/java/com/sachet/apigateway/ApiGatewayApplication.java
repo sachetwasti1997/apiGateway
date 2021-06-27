@@ -13,3 +13,11 @@ public class ApiGatewayApplication {
     }
 
 }
+/**
+ * Without any routes also we can discover or handle routes via
+ * apiGateway, we just need to have as url
+ * http://localhost:8082/PRODUCT-SERVICE/products/get
+ * --> localhost:8082 : ip of apiGateway
+ * --> PRODUCT-SERVICE : name of product microservice in Eureka server
+ * --> /products/get : end point name
+ */
